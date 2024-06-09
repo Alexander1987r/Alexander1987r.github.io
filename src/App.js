@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import Project from './pages/Project';
 import Contacts from './pages/Contacts';
 import Footer from './components/Footer/Footer';
-import Start from './pages/Start';
+
 
 import ScrollToTop from './utils/scrollToTop';
 
