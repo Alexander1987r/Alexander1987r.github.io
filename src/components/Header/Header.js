@@ -8,7 +8,7 @@ const  Header= () => {
             <h1 className="header__title">
                 <strong>
                   Hi, my name is 
-                  <em>Yurii</em>
+                  <em>Alex</em>
                   </strong>
                   <br/>
                 a frontend developer
