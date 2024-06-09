@@ -12,13 +12,13 @@ const Navigation = () => {
         <div className="container">
             <div className="nav-row">
 
-                <NavLink to="/"  className="logo">
+                <NavLink to="/home"  className="logo">
                 <strong>Freelancer</strong> portfolio
                 </NavLink>
                 <ButtonDarkMode/>
                 <ul className="nav-list">
                     <li className="nav-list__item">
-                        <NavLink to="/" className={({isActive})=>isActive ? activeLink : normalLink}>
+                        <NavLink to="/home" className={({isActive})=>isActive ? activeLink : normalLink}>
                            Home
                         </NavLink>                    
                     </li>
