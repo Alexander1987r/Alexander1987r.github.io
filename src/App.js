@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import Project from './pages/Project';
 import Contacts from './pages/Contacts';
 import Footer from './components/Footer/Footer';
+import Start from './pages/Start';
 
 import ScrollToTop from './utils/scrollToTop';
 
@@ -18,9 +19,8 @@ function App() {
     <Router>
        <ScrollToTop/>
        <Navigation/>
-       <Home/>
         <Routes>
-          <Route path='/home' element={<Home/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path='/project/:id' element={<Project/>} />  
           <Route path='/contacts' element={<Contacts/>} /> 
