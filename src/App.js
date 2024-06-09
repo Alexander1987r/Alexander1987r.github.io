@@ -18,8 +18,8 @@ function App() {
     <Router>
        <ScrollToTop/>
        <Navigation/>
+       <Home/>
         <Routes>
-         
           <Route path='/home' element={<Home/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path='/project/:id' element={<Project/>} />  

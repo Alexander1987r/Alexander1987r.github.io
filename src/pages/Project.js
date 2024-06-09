@@ -2,7 +2,7 @@ import {useParams} from "react-router-dom";
 
 import { cards } from "../state/state";
 import ButtonGitHub from '../components/ButtonGitHub/ButtonGitHub';
-import img from './../img/projects/02-big.jpg';
+
 
 
 
